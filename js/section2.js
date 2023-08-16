@@ -52,3 +52,17 @@ const coffee = {
   },
 };
 coffee.barista ="Ota"//newProperty
+coffee.isHot = false;
+let userInfo = null;
+
+//typeof演算子：データの型を返す演算子
+//関数
+
+function add(num1,num2){
+  const value = num1 + num2;//ローカル変数
+  console.log(value);
+  return value;
+}
+const value = 'hello';//グローバル変数
+const returnedValue = add(2,3);
+
